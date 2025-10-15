@@ -4,4 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12.7"
-dependencies = []
+dependencies = [
+    "google-search-results>=2.4.2",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
+    "langchain-groq>=0.3.8",
+    "langchain-openai>=0.3.33",
+    "load-dotenv>=0.1.0",
+]
